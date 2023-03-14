@@ -1,0 +1,28 @@
+.menu-list {
+  padding: 20px;
+}
+
+.menu-card {
+  display: flex;
+  border: 1px solid red;
+}
+
+.menu-card-img {
+  width: 200px;
+}
+
+.menu-card-info {
+  padding: 10px;
+}
+
+.menu-card-price {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.price {
+  font-size: x-large;
+  font-weight: bold;
+}

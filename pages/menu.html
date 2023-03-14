@@ -8,11 +8,64 @@
 
   <title>Menu - Bajo Jajo Restaurant</title>
   <link rel="shortcut icon" href="../egg.png" type="image/x-icon">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="./menu.css">
 </head>
 
 <body>
-  <h1>Menu</h1>
-  <a href="../index.html">Strona główna</a>
+
+  <nav class="nav-bar">
+    <h1>
+      <a href="../index.html">Bajo Jajo Restaurant</a>
+    </h1>
+
+    <ul class="nav-list">
+      <li class="nav-item active">
+        <a href="./menu.html">Menu</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="./rezerwacja.html">Rezerwacja</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="./kontakt.html">Kontakt</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="menu-list">
+    <article class="menu-card">
+      <img class="menu-card-img" src="../images/menu/pasta-carbonara.jpg" alt="Pasta Carbonara">
+
+      <div class="menu-card-info">
+        <h2>Pasta Carbonara</h2>
+        <p>Pasta, jajka, pieprz</p>
+      </div>
+
+      <div class="menu-card-price">
+        <span>
+          <span class="price">40</span> PLN
+        </span>
+      </div>
+    </article>
+
+    <article class="menu-card">
+      <img class="menu-card-img" src="../images/menu/pasta-italiano.jpg" alt="Pasta Italiano">
+
+      <div class="menu-card-info">
+        <h2>Pasta Italiano</h2>
+        <p>Pasta, pomidory, oliwki, bazylia</p>
+      </div>
+
+      <div class="menu-card-price">
+        <span>
+          <span class="price">45</span> PLN
+        </span>
+      </div>
+    </article>
+  </main>
+
 </body>
 
 </html>
