@@ -9,6 +9,8 @@
   <title>Rezerwacja - Bajo Jajo Restaurant</title>
   <link rel="shortcut icon" href="../egg.png" type="image/x-icon">
   <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="./rezerwacja.css">
+  <script src="./rezerwacja.js" defer></script>
 </head>
 
 <body>
@@ -32,7 +34,62 @@
     </ul>
   </nav>
 
-  <p>Rezerwacja</p>
+  <main class="reservation">
+    <h2 class="reservation-title">Zarezerwuj stolik</h2>
+
+    <form>
+
+      <label>
+        <div>Imie</div>
+        <input type="text" placeholder="Imie">
+      </label>
+
+      <label>
+        <div>Nazwisko</div>
+        <input type="text" placeholder="Nazwisko">
+      </label>
+
+      <label>
+        <div>E-mail</div>
+        <input type="email" placeholder="E-mail">
+      </label>
+
+      <label>
+        <div>Numer telefonu</div>
+        <input type="tel" placeholder="Numer telefonu">
+      </label>
+
+      <label>
+        <div>Liczba gości</div>
+        <input type="number" placeholder="Liczba gości">
+      </label>
+
+      <label>
+        <div>Data rezerwacji</div>
+        <input type="date">
+      </label>
+
+      <label>
+        <div>Godzina rezerwacji</div>
+        <input type="time">
+      </label>
+
+      <label>
+        <div>Dodatkowe informacje</div>
+        <textarea cols="24" rows="10"></textarea>
+      </label>
+
+      <label>
+        <input type="checkbox">
+        <span>Akceptuję regulamin</span>
+      </label>
+
+      <button type="submit">Wyślij</button>
+
+    </form>
+
+  </main>
+
 </body>
 
 </html>
