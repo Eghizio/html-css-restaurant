@@ -37,54 +37,65 @@
   <main class="reservation">
     <h2 class="reservation-title">Zarezerwuj stolik</h2>
 
-    <form>
+    <form class="reservation-form">
 
-      <label>
-        <div>Imie</div>
-        <input type="text" placeholder="Imie">
-      </label>
+      <div class="form-row">
+        <label class="form-field">
+          <div>Imie</div>
+          <input type="text" placeholder="Imie">
+        </label>
 
-      <label>
-        <div>Nazwisko</div>
-        <input type="text" placeholder="Nazwisko">
-      </label>
+        <label class="form-field">
+          <div>Nazwisko</div>
+          <input type="text" placeholder="Nazwisko">
+        </label>
+      </div>
 
-      <label>
-        <div>E-mail</div>
-        <input type="email" placeholder="E-mail">
-      </label>
 
-      <label>
-        <div>Numer telefonu</div>
-        <input type="tel" placeholder="Numer telefonu">
-      </label>
+      <div class="form-row">
+        <label class="form-field">
+          <div>E-mail</div>
+          <input type="email" placeholder="E-mail">
+        </label>
 
-      <label>
-        <div>Liczba gości</div>
-        <input type="number" placeholder="Liczba gości">
-      </label>
+        <label class="form-field">
+          <div>Numer telefonu</div>
+          <input type="tel" placeholder="Numer telefonu">
+        </label>
+      </div>
 
-      <label>
-        <div>Data rezerwacji</div>
-        <input type="date">
-      </label>
+      <div class="form-row">
+        <label class="form-field">
+          <div>Liczba gości</div>
+          <input type="number" placeholder="Liczba gości">
+        </label>
 
-      <label>
-        <div>Godzina rezerwacji</div>
-        <input type="time">
-      </label>
+        <label class="form-field">
+          <div>Data rezerwacji</div>
+          <input type="date">
+        </label>
 
-      <label>
-        <div>Dodatkowe informacje</div>
-        <textarea cols="24" rows="10"></textarea>
-      </label>
+        <label class="form-field">
+          <div>Godzina rezerwacji</div>
+          <input type="time">
+        </label>
+      </div>
 
-      <label>
-        <input type="checkbox">
-        <span>Akceptuję regulamin</span>
-      </label>
+      <div class="form-row">
+        <label class="form-field">
+          <div>Dodatkowe informacje</div>
+          <textarea></textarea>
+        </label>
+      </div>
 
-      <button type="submit">Wyślij</button>
+      <div class="form-row">
+        <label>
+          <input type="checkbox">
+          <span>Akceptuję regulamin</span>
+        </label>
+      </div>
+
+      <button class="submit-btn" type="submit">Wyślij</button>
 
     </form>
 
