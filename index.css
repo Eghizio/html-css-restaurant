@@ -50,3 +50,63 @@
 .hero-cta-link:hover {
   filter: brightness(1);
 }
+
+/* sections */
+
+/* top quality name xD */
+.section {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.section.reversed {
+  flex-direction: row-reverse;
+}
+
+.section-text {
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 18px;
+  max-width: 400px;
+}
+
+.section-title {
+  font-size: 32px;
+}
+
+.section-img {
+  max-width: 400px;
+}
+
+
+/* reviews */
+
+.reviews{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.reviews-title {
+  font-size: 32px;
+}
+
+.review {
+  width: 800px;
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+  background-color: darkseagreen;
+  border-radius: 8px;
+}
+
+.review-photo {
+  width: 250px;
+  border-radius: 16px;
+}
+
+
